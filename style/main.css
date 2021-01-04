@@ -1,0 +1,52 @@
+
+/* DEFININDO VARIÁVEIS */
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+/* RESETANDO  */
+*{
+    box-shadow: inset 0px 0px 0px 1px rgba(102, 22, 11, 0.212);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+      
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo{
+    color:  var(--vermelho);
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+ 
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* filme principal */
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100% ), url(/img/Black\ Sails.jpg);
+    height: 400px;
+    background-size:cover;
+}
